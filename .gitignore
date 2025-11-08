@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# ZK proving keys (DO NOT COMMIT)
+*.pk
+
+# If you generate other proving keys by other names
+**/proving*.key
+**/*proving*.key
+
+# Environment files
+.env
+.env.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# Docker build leftovers
+*.log
+
+# Optional: witnesses can contain private inputs
+witness.json

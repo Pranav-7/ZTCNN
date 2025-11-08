@@ -1,0 +1,24 @@
+# Core deep learning & ONNX stack
+torch
+onnx
+onnxruntime
+numpy
+
+# EZKL for ZKML proof generation
+ezkl
+
+# FastAPI + server + CORS
+fastapi
+uvicorn
+python-multipart
+aiofiles
+requests
+
+# Optional: JSON formatting, nice logs, async helpers
+pydantic
+tqdm
+loguru
+
+# Development helpers (optional, safe to keep)
+pytest
+ipython

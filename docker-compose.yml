@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  ezkl-api:
+    build: .
+    container_name: ezkl-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+    environment:
+      - PYTHONUNBUFFERED=1
